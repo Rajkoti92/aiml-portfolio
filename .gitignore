@@ -1,0 +1,55 @@
+# ---- Large binaries: never commit ----
+# HelmNet image array (~472 MB) - exceeds GitHub's 100 MB hard limit
+*.npy
+# Trained model artefacts - keep these on Hugging Face, not in git
+*.joblib
+*.pkl
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# ---- Third-party course material: do not redistribute ----
+05-medical-assistant-rag/data/*.pdf
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ---- Environment / secrets ----
+.env
+.env.*
+*.key
+secrets.json
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---- Logs ----
+*.log
+logs/
+
+# Placeholder files
+.gitkeep

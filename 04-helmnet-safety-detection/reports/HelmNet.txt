@@ -1,0 +1,53 @@
+Description
+worker.png
+
+Business Context
+Workplace safety in hazardous environments like construction sites and industrial plants is crucial to prevent accidents and injuries. One of the most important safety measures is ensuring workers wear safety helmets, which protect against head injuries from falling objects and machinery. Non-compliance with helmet regulations increases the risk of serious injuries or fatalities, making effective monitoring essential, especially in large-scale operations where manual oversight is prone to errors and inefficiency.
+
+To overcome these challenges, SafeGuard Corp plans to develop an automated image analysis system to detect whether workers are wearing safety helmets. This system will improve safety enforcement, ensuring compliance and reducing the risk of head injuries. By automating helmet monitoring, SafeGuard aims to enhance efficiency, scalability, and accuracy, ultimately fostering a safer work environment while minimizing human error in safety oversight.
+Objective
+As a data scientist at SafeGuard Corp, you are tasked with developing an image classification model that classifies images into one of two categories:
+- With Helmet: Workers wearing safety helmets.
+- Without Helmet: Workers not wearing safety helmets.
+
+The ultimate objective is to prepare the model for deployment as part of an automated monitoring system. This system will enable real-time analysis of images and assist in ensuring compliance with workplace safety regulations.
+Data Dictionary
+The dataset consists of 4125 images, equally divided into two categories:
+
+- With Helmet: 3161 images showing workers wearing helmets.
+- Without Helmet: 964 images showing workers not wearing helmets.
+
+Dataset Characteristics:
+- Variations in Conditions: Images include diverse environments such as construction sites, factories, and industrial settings, with variations in lighting, angles, and worker postures to simulate real-world conditions.
+- Worker Activities: Workers are depicted in actions such as standing, using tools, or moving, ensuring robust model learning for various scenarios.
+Important Note
+Please set the runtime to T4-GPU in Google Colab. Please follow the below instructions to the runtime toT4-GPU 
+Click on "Runtime" in the menu bar
+Select "Change runtime type" from the dropdown menu
+In the "Hardware accelerator" section, choose "GPU"
+You may see multiple GPU options; choose "GPU" if you specifically want a T4 GPU
+After selecting the GPU option, click on the "Save" button
+Submission Guidelines
+Kindly go through the instructions below before attempting the project.
+
+The project submission should be a single Python notebook in HTML (.html) format.
+In case Jupyter Notebook is being used, the Python notebook can be exported as an HTML file from the File menu.
+In case Google Colab (preferable) is being used, the Python notebook needs to be first downloaded as a .ipynb file from Colab and can then be converted and exported as an HTML file using this link (Links to an external site.)Links to an external site..
+Any assignment found copied/plagiarized from any source will not be evaluated and awarded zero marks.
+Please ensure timely submission as any submission post-deadline will either not be accepted for evaluation or attract penalties.
+Important Points to Note
+Thoroughly read the problem statement and project rubricbefore starting to work on the project.
+
+Apply the concepts and techniques you have learned in the previous weeks and summarise your insights at the end.
+
+Please run the code from start to end sequentially,add the observations and insights as applicable, and then submit the file in the mentioned format.
+
+A template notebook has been provided for reference. Please refer to it in case you need assistance with certain sections of the project (like Weekly News Summarization).
+
+Before submitting the file, please make sure that all the sections mentioned in the rubric have been covered and the code outputs are clearly visible in your submission.
+
+If the code in the submission is correct but not executed, 50% of the marks will be deducted from the corresponding rubric section.
+
+Kindly connect with the Program Manager in case of any confusion.
+
+Power Ahead!
